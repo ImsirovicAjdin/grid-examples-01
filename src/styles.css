@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+}
+* {
+  border: 1px solid gray;
+}
+#grid-ak {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+#image {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+#title {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+#button-one,
+#button-two {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
